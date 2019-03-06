@@ -1,21 +1,35 @@
-.cnt-fl{
+body{
     background-color:yellow;
 }
 .header{
     background-color:blue;
+    border:1px black solid;
+    height:25vh;
 }
 .nav{
     background-color:green;
+    border:1px black solid;
+    height:10vh;
 }
 .content{
     background-color:red;
+    border:1px black solid;
 }
 .aside{
-
+    background-color:aqua;
+    border:1px black solid;
 }
 .promo{
-
+    background-color:orange;
+    border:1px black solid;
+    height:25vh;
 }
-.promo{
-    
+.footer{
+    background-color:gray;
+    border:1px black solid;
+    height:10vh
+}
+
+.content, .aside{
+    height:30vh;
 }
